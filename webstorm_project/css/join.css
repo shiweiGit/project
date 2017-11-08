@@ -1,0 +1,42 @@
+.joinBox{
+    width:100%;
+    margin: 20px 0;
+}
+.heading {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.heading h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0 0 20px;
+    color: #3f5263;
+}
+.heading p {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #8693a7;
+}
+.joinContent{
+    width: 1200px;
+    margin:0 auto;
+    height: auto;
+    font-size: 14px;
+    color: #333333;
+    line-height: 30px;
+
+}
+.join h1 {
+    font-size: 16px;
+    color: #ff0000;
+    font-weight: normal;
+    padding:10px 0;
+}
+.job{
+    margin:15px 0;
+    text-align: justify;
+}

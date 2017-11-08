@@ -1,0 +1,148 @@
+
+.banner{
+    position: relative;}
+.outer{margin:0 auto;height:465px;width:100%;position: relative;}
+.outer img{position: absolute;height:100%;width:100%;}
+.btn,
+.btn2{
+    position: absolute;
+    top:50%;
+    margin-top:-25px;
+    display: block;
+    width: 26px;
+    height: 50px;
+    overflow: hidden;
+    z-index: 2;
+}
+.btn{
+     left: 18px;
+     background: url(../imgs/left.png) no-repeat top center;
+ }
+.btn2{
+    right: 18px;
+    background: url(../imgs/right.png) no-repeat top center;
+}
+.btn:hover,
+.btn2:hover{
+    cursor: pointer;
+}
+.num{height:20px;position: absolute;left:50%;bottom:20px;
+    margin-left:-50px;}
+/*.num li{width:20px;height:20px;background: skyblue;border-radius: 50%;float:left;color:white;font-size:14px;text-align: center;line-height: 20px;}*/
+/*.num li:hover{cursor:pointer;}*/
+
+.num li{
+    float: left;
+    cursor: pointer;
+    height: 19px;
+    width: 19px;
+    overflow: hidden;
+    margin: 0px 5px;
+}
+.num li b{
+    display: block;
+    text-indent: -999em;
+    background: url(../imgs/bg_03.png) no-repeat center center;
+    width: 19px;
+    height: 19px;
+    overflow: hidden;
+}
+.num li.sel b{
+    background: url(../imgs/bg_04.png) no-repeat center center;
+}
+.con_second{
+    width:100%;
+    margin:10px auto;
+    overflow: hidden;
+    text-align: center;
+}
+.con_second .second_title{
+    padding:20px 0;
+}
+.con_second .content{
+    width: 100%;
+    height:300px;
+
+}
+/*服务项目*/
+.heading {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.heading h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0 0 20px;
+    color: #3f5263;
+}
+.heading p {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #8693a7;
+}
+.service{
+    margin-top:20px;
+}
+.service_contentBox{
+    width:100%;
+
+}
+.service_content{
+    width:1200px;
+    margin:0 auto;
+}
+.service_item{
+    width: 260px;
+    height:260px;
+    float: left;
+    border: 1px solid #ccc;
+    margin-left: 25px;
+    margin-top: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.service_item:hover{
+    cursor: pointer;
+}
+
+.service_item .ovrly {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.service_item:hover .ovrly{
+    opacity: 1;
+}
+.service_item .text {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.service_item:hover .text{
+    opacity: 1;
+    color: #fff;
+}
+.service_item img{
+    width: 346px;
+    margin: 6px;
+
+}
