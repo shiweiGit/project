@@ -6,25 +6,6 @@
     width:1200px;
     margin:0 auto;
 }
-.heading {
-    z-index: 1;
-    position: relative;
-    text-align: center;
-    margin-bottom: 20px;
-}
-.heading h2 {
-    font-size: 40px;
-    font-weight: 500;
-    margin: 0 0 20px;
-    color: #3f5263;
-}
-.heading p {
-    font-size: 16px;
-    font-weight: 300;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    color: #8693a7;
-}
 .aboutIntro{
     width:1200px;
     margin:0 auto;

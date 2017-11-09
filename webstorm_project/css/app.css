@@ -1,0 +1,14 @@
+.appBox{
+    margin:20px 0;
+}
+.appContent{
+    width:1200px;
+    margin:0 auto;
+}
+.service_detail_title{
+    padding:10px 0;
+}
+.appInfo{
+    line-height:20px;
+    text-indent: 2em;
+}
