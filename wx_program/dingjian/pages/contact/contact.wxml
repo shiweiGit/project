@@ -1,0 +1,16 @@
+<import src="../../common/tpl/banner-swiper.wxml"/>
+<view>
+    <template is="bannerSwiper" data="{{...bannerSwiperConfig}}"/>
+    <view class="contact-info info">
+        <view class="contact-info-title title"><text>联系我们</text></view>
+        <view class="contact-info-list">
+            <view class="contact-info-item" wx:for="{{contactInfo}}">
+                <label style="background-image:url('{{item.icon}}')">{{item.title}}：</label>
+                <text class="contact-info-content" selectable="true">{{item.content}}</text>
+            </view>
+        </view>
+    </view>
+   <view class="map-info info">
+    <map id="map" longitude="116.4543700000" latitude="39.9056400000" scale="14" controls="{{controls}}"  markers="{{markers}}" bindmarkertap="markertap" style="width: 100%; height: 200px;"></map>  
+   </view>
+</view>

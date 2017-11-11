@@ -1,0 +1,37 @@
+
+.case-info-list {
+  padding: 32rpx;
+}
+
+.case-list-item{
+  position:relative;
+  margin-bottom: 20rpx;
+}
+.case-item-title{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+}
+.case-list-item image {
+  width: 100%;
+  border-radius: 10rpx;
+}
+
+.case-list-item .case-item-title {
+  font-size: 42rpx;
+  font-weight: bold;
+}
+
+.tips {
+  margin: 10rpx;
+  font-size: 32rpx;
+  color: #909090;
+  text-align: center;
+}
+
+.footer {
+  margin: 30rpx 0;
+  padding: 0 84rpx;
+}

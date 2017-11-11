@@ -1,0 +1,24 @@
+/**app.wxss**/
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+.hidden {
+  display: none !important;
+}
+.info{
+  margin-top: 20rpx;
+}
+.title{
+  font-size:42rpx;
+  color:#3f5263;
+  border-left:10rpx solid #3f5263;
+  padding:0 22rpx;
+  margin-bottom:12rpx;
+}

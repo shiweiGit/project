@@ -1,0 +1,22 @@
+<import src="../../common/tpl/banner-swiper.wxml" />
+<view>
+  <template is="bannerSwiper" data="{{...bannerSwiperConfig}}" />
+  <view class="case-info info">
+    <view class="case-info-title title">案例展示</view>
+     <view class="case-info-list">
+        <view class="case-list-item" wx:for="{{caseList}}">
+          <image src="{{item.img}}" mode="widthFix"></image>
+          <view class="case-item-title">
+            <text>{{item.title}}</text>
+          </view>
+        </view>
+      </view>
+  </view>
+  <view class="tips">
+    <view>查看更多案例详情，请浏览我们的官网</view>
+    <view>（<text selectable="{{true}}">www.dingjian.com</text>）</view>
+  </view>
+  <!-- <view class="footer">
+    <navigator class="dz-btn" url="../dingzhi/dingzhi">立即定制</navigator>
+  </view> -->
+</view>
